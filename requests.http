@@ -1,0 +1,27 @@
+### Revenue overview
+GET http://localhost:8080/api/analytics/revenue?weekStart=2026-09-14&weekEnd=2026-09-20
+Accept: application/json
+
+### Daily revenue
+GET http://localhost:8080/api/analytics/revenue/daily?weekStart=2026-09-14&weekEnd=2026-09-20
+Accept: application/json
+
+### Movie revenue
+GET http://localhost:8080/api/analytics/revenue/movie?weekStart=2026-09-14&weekEnd=2026-09-20
+Accept: application/json
+
+### F&B summary
+GET http://localhost:8080/api/analytics/fnb?weekStart=2026-09-14&weekEnd=2026-09-20
+Accept: application/json
+
+### Inventory summary
+GET http://localhost:8080/api/analytics/inventory?weekStart=2026-09-14&weekEnd=2026-09-20
+Accept: application/json
+
+### Showtime recommendations
+GET http://localhost:8080/api/recommendations/showtimes?weekStart=2026-09-14&weekEnd=2026-09-20
+Accept: application/json
+
+### Inventory recommendations
+GET http://localhost:8080/api/recommendations/inventory?weekStart=2026-09-14&weekEnd=2026-09-20
+Accept: application/json

@@ -1,0 +1,3 @@
+export const DEFAULT_WEEK_START = '2026-09-14'
+export const STOCK_ALERT_DAYS_CRITICAL = 3
+export const STOCK_ALERT_DAYS_WARNING = 7

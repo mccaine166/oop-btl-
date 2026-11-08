@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: memory,stub
+    # Khi Người 1 giao ShowtimeStatsProvider thật thì bỏ profile "stub".
+
+server:
+  port: 8080
+
+cinema:
+  analytics:
+    recommendation:
+      occupancy-high-threshold: 0.75
+      occupancy-low-threshold: 0.45
+      max-decline: -0.3
+      max-growth: 0.5
+      safety-factor: 0.15
+      min-sample-size: 3
